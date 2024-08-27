@@ -1,0 +1,166 @@
+/* styles.css */
+
+/* General Styles */
+/* App.css */
+
+body {
+  background-image: url('/src/images/bg1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #007bff;
+}
+
+.navbar-brand {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #d1d1d1;
+}
+
+/* Dashboard */
+.alert-success {
+  background-color: #28a745;
+  color: #ffffff;
+  border-radius: 0.25rem;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 0.25rem;
+  overflow: hidden; /* Ensures no content spills out */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds shadow for a lifted effect */
+}
+
+.card-header {
+  background-color: #ffffff; /* White header */
+  color: #343a40; /* Dark text for contrast */
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+.card-body {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.card.bg-success {
+  background-color: #28a745;
+}
+
+.card.bg-danger {
+  background-color: #dc3545;
+}
+
+.card.text-white .card-title {
+  color: #ffffff;
+}
+
+/* AddTransaction */
+.form-group label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004080;
+}
+
+/* Expense List */
+.list-group-item {
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  margin-bottom: 10px;
+  padding: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+}
+
+.list-group-item-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.list-group-item-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+/* FilterExpenses */
+.filter-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter-form h3 {
+  margin-bottom: 20px;
+}
+
+.filter-form .form-group label {
+  font-weight: bold;
+}
+
+.filter-form .form-control {
+  border-radius: 0.25rem;
+}
+
+.filter-form .btn-primary {
+  margin-top: 10px;
+}
+
+/* ExpenseItem */
+.expense-item {
+  padding: 10px;
+  border-radius: 0.25rem;
+  border: 1px solid #dee2e6;
+  margin-bottom: 10px;
+}
+
+.expense-item.income {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.expense-item.expense {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+.chart-container {
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
